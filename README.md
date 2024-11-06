@@ -8,7 +8,7 @@
 
 ### See User Guide for details
 You can download the [User Guide](doc/TIID_UserGuide.pdf)
-***Note:*** The input files must be from organisms with complete genomes.
+<p>***Note:*** The input files must be from organisms with complete genomes.</p>
 
 ### Screenshots
 <img src="screenshots/Fig1.png" alt="MainWindow" width="300" height="200" /> <img src="screenshots/Fig2.png" alt="ParameterWindow" width="300" height="200" /> <img src="screenshots/Fig3.png" alt="LogWindow" width="300" height="200" /> 
