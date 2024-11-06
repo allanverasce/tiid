@@ -7,7 +7,7 @@
 <image src="https://github.com/allanverasce/allanverasce/assets/25986290/edfd02bc-1396-47a8-886f-c52d10508b0d" alt="Image" width="80"/>
 
 ### See User Guide for details
-<p> You can download the [User Guide](doc/TIID_UserGuide.pdf) </p>
+ You can download the [User Guide](doc/TIID_UserGuide.pdf) 
 
 **Note:** The input files must be from organisms with complete genomes.
 
