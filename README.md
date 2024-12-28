@@ -47,7 +47,7 @@ Now that the installation and configuration are complete, you can run TIID:
 ```
 java -jar tiid.jar
 ```
-**Now:** Enjoy and thanks for using our software!.
+**Now:** Enjoy and thanks for using our software.
 
 
 ### See User Guide for details
