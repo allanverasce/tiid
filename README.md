@@ -12,7 +12,7 @@
 
 To install the necessary dependencies for TIID, follow the steps below:
 
-1. **Open the terminal or command prompt** and navigate to the directory where the `dependencyInstaller.jar` file is located.
+1. **Open the terminal or command prompt** (Ctrl + Alt + T) and navigate to the directory where the `dependencyInstaller.jar` file is located.
 
 2. **Run the following command to start the installer**:
 
