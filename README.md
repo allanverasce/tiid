@@ -6,6 +6,46 @@
 <image src="https://github.com/allanverasce/allanverasce/assets/25986290/3f178481-786d-4e6f-b46f-7e10732e9ca8" alt="Image" width="80"/>
 <image src="https://github.com/allanverasce/allanverasce/assets/25986290/edfd02bc-1396-47a8-886f-c52d10508b0d" alt="Image" width="80"/>
 
+# Quick Install - TIID
+
+## Step 1: Install Dependencies
+
+To install the necessary dependencies for TIID, follow the steps below:
+
+1. **Open the terminal or command prompt** and navigate to the directory where the `dependencyInstaller.jar` file is located.
+
+2. **Run the following command to start the installer**:
+
+   ```
+   java -jar dependencyInstaller.jar
+   ```
+4. **Installation Window**: After running the command above, a graphical window will open. Click the "Start Installation" button to begin the installation process.
+
+5. **Administrator Authentication**: The installer will ask for your sudo password. This is usually the same as your login password. Enter the password and press OK.
+
+The installer will now automatically install all the necessary dependencies and prepare your computer to run TIID.
+
+## Step 2: Database Configuration
+After installing the dependencies, you need to configure the database for TIID:
+1. Navigate to the directory where the T4ID.properties file is located. This file is in the properties folder inside the TIID directory.
+2. Edit the T4ID.properties file with a simple text editor (such as nano, vim, or any graphical text editor you prefer).
+Database Configuration:
+- Locate the userDB and password lines.
+- Change them to the following values:
+```
+userDB=root
+password=tiid@100
+```
+3. Save and close the file.
+
+## Step 3: Running TIID
+Now that the installation and configuration are complete, you can run TIID:
+- Open the terminal (Ctrl + Alt + T) and navigate to the directory where the tiid.jar file is located.
+- Run the following command to start TIID:
+```
+java -jar tiid.jar
+```
+
 ### See User Guide for details
  You can download the [User Guide](doc/TIID_UserGuide.pdf) 
 
