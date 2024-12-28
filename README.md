@@ -8,7 +8,7 @@
 
 ## Quick Install - TIID
 
-## Step 1: Install Dependencies
+### Step 1: Install Dependencies
 
 To install the necessary dependencies for TIID, follow the steps below:
 
@@ -27,7 +27,7 @@ To install the necessary dependencies for TIID, follow the steps below:
 
 The installer will now automatically install all the necessary dependencies and prepare your computer to run TIID.
 
-## Step 2: Database Configuration
+### Step 2: Database Configuration
 After installing the dependencies, you need to configure the database for TIID:
 1. Navigate to the directory where the T4ID.properties file is located. This file is in the properties folder inside the TIID directory.
 2. Edit the T4ID.properties file with a simple text editor (such as nano, vim, or any graphical text editor you prefer).
@@ -40,13 +40,14 @@ password=tiid@100
 ```
 3. Save and close the file.
 
-## Step 3: Running TIID
+### Step 3: Running TIID
 Now that the installation and configuration are complete, you can run TIID:
 - Open the terminal (Ctrl + Alt + T) and navigate to the directory where the tiid.jar file is located.
 - Run the following command to start TIID:
 ```
 java -jar tiid.jar
 ```
+**Now** Enjoy and thanks for using our software.
 
 ### See User Guide for details
  You can download the [User Guide](doc/TIID_UserGuide.pdf) 
