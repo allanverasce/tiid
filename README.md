@@ -21,7 +21,9 @@ To install the necessary dependencies for TIID, follow the steps below:
    ```
 4. **Installation Window**: After running the command above, a graphical window will open. Click the "Start Installation" button to begin the installation process.
 
-5. **Administrator Authentication**: The installer will ask for your sudo password. This is usually the same as your login password. Enter the password and press OK.
+<img src="screenshots/DependencyInstaller.png" alt="TIIDDependencyInstaller" width="300" height="200" />
+
+6. **Administrator Authentication**: The installer will ask for your sudo password. This is usually the same as your login password. Enter the password and press OK.
 
 The installer will now automatically install all the necessary dependencies and prepare your computer to run TIID.
 
