@@ -11,10 +11,15 @@
 ### Step 1: Install Dependencies
 
 To install the necessary dependencies for TIID, follow the steps below:
+1. **Java installation:**
+```
+  wget https://download.oracle.com/java/17/archive/jdk-17.0.12_linux-x64_bin.deb
+  sudo apt install -y ./jdk-17.0.12_linux-x64_bin.deb
+```
 
-1. **Open the terminal or command prompt** (Ctrl + Alt + T) and navigate to the directory where the `dependencyInstaller.jar` file is located.
+2. **Open the terminal or command prompt** (Ctrl + Alt + T) and navigate to the directory where the `dependencyInstaller.jar` file is located.
 
-2. **Run the following command to start the installer**:
+3. **Run the following command to start the installer**:
 
    ```
    java -jar dependencyInstaller.jar
@@ -23,7 +28,7 @@ To install the necessary dependencies for TIID, follow the steps below:
 
 <img src="screenshots/DependencyInstaller.png" alt="TIIDDependencyInstaller" width="300" height="200" />
 
-6. **Administrator Authentication**: The installer will ask for your sudo password. This is usually the same as your login password. Enter the password and press OK.
+5. **Administrator Authentication**: The installer will ask for your sudo password. This is usually the same as your login password. Enter the password and press OK.
 
 The installer will now automatically install all the necessary dependencies and prepare your computer to run TIID.
 
